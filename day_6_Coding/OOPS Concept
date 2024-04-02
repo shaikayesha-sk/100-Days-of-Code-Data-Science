@@ -1,1 +1,13 @@
 
+Abstraction hides the implementation and shows the interface to a user
+
+abstraction should be imported from ABC 
+
+libraries implantable are ABC, abstract method 
+
+Abstraction only can happen if there is at least one abstract method which is used by denoter @abstractmethod
+
+child class inherit the properties from base class in which the abstract method is converted into the concrete method 
+
+abstract method - does not consist of anything empty
+concrete method - contains code in it 
