@@ -7,7 +7,9 @@ libraries implantable are ABC, abstract method
 
 Abstraction only can happen if there is at least one abstract method which is used by denoter @abstractmethod
 
-child class inherit the properties from base class in which the abstract method is converted into the concrete method 
+child class inherit the properties from a base class in which the abstract method is converted into the concrete method 
 
 abstract method - does not consist of anything empty
 concrete method - contains code in it 
+
+we cannot make the object of the abstract class but can make the object of child class 
