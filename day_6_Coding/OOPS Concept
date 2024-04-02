@@ -12,4 +12,16 @@ child class inherit the properties from a base class in which the abstract metho
 abstract method - does not consist of anything empty
 concrete method - contains code in it 
 
-we cannot make the object of the abstract class but can make the object of child class 
+we cannot make the object of the abstract class but can make the object of the child class 
+
+Encapsulation :
+
+it consists of access modifiers: public, private, protected 
+
+private is recognised if the variables consist of 2 underscores, It can be accessed only under the class 
+protected is recognised if the variable consists of 1 underscore, It can be accessed under the derived class
+
+Inheritance :
+
+super() method used to access the variables of the base class
+base class cannot access the child class properties but child class can access the properties of base class and it's properties 
