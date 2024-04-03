@@ -1,0 +1,43 @@
+Regular Expressions 
+
+regex is used for data manipulation , pattern matching , text matching and searching option 
+
+  we will import re for the importing regular expressions 
+
+  for matching any letters , vowels and consonants we use regex 
+
+ import re 
+
+text = "ayesha"
+pattern = 'y'
+match = re.search(pattern,text)
+
+if match:
+    print("Match found:", match.group())
+else:
+    print("Not found")
+
+  Vowel searching 
+
+   import re 
+
+text = "ayesha"
+pattern = '[aeiou]'
+match = re.search(pattern,text)
+
+if match:
+    print("Match found:", match.group())
+else:
+    print("Not found")
+
+
+  Searching word 
+import re 
+
+text = "I am ashu"
+match = re.search(r'am', text)
+
+print("start index:", match.start())
+print("end index:", match.end())
+
+  
